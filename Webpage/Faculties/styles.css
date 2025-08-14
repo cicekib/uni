@@ -6,16 +6,18 @@
   gap: 8px;
 }
 .faculty__icon {
-  font-size: 2rem;
-  background: var(--brand-2);
-  color: var(--ink);
-  border-radius: 12px;
-  padding: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,.05);
+  background: none; /* Background handled by SVG */
+  padding: 0;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
 }
+.card--faculty:hover .faculty__icon {
+  transform: scale(1.05);
+}
+
 .card--faculty h3 {
   margin: 0;
   font-size: 1.25rem;
