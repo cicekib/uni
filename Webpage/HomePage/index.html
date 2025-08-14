@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>University of Rojava — Official Site (Sample Template)</title>
+  <meta name="description" content="A modern, accessible university website template you can adapt." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <span class="topbar__ann">Welcome to our official portal</span>
+      <nav class="topbar__lang" aria-label="Language selector">
+        <a href="#" aria-current="page">EN</a>
+        <a href="#">KU</a>
+        <a href="#">AR</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a class="brand" href="#" aria-label="University home">
+        <svg class="brand__logo" viewBox="0 0 64 64" role="img" aria-label="Logo">
+          <circle cx="32" cy="32" r="30" class="logo-bg"/>
+          <path d="M12 28 L32 18 L52 28 L32 38 Z" class="logo-peak"/>
+          <rect x="28" y="38" width="8" height="10" rx="2" class="logo-peak"/>
+        </svg>
+        <div class="brand__text">
+          <strong>University of Rojava</strong>
+          <span>Knowledge • Pluralism • Equality</span>
+        </div>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact" class="btn btn--sm btn--primary">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="University hero section">
+    <div class="container hero__inner">
+      <div class="hero__copy">
+        <h1>Education for a democratic, inclusive future</h1>
+        <p>Our university fosters critical thinking, multilingual learning, and community-based research that serves society.</p>
+        <div class="hero__cta">
+          <a href="#admissions" class="btn btn--primary">Apply Now</a>
+          <a href="#programs" class="btn btn--ghost">Explore Programs</a>
+        </div>
+        <ul class="stats" aria-label="Key figures">
+          <li><span class="stats__num">30+</span><span class="stats__label">Departments</span></li>
+          <li><span class="stats__num">8k+</span><span class="stats__label">Students</span></li>
+          <li><span class="stats__num">3</span><span class="stats__label">Languages</span></li>
+        </ul>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <div class="hero__blob"></div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container grid grid--2">
+        <div>
+          <h2>About the University</h2>
+          <p>
+            Founded to advance knowledge through community-centered education and research, our university
+            promotes gender equality, linguistic diversity, and academic freedom.
+          </p>
+          <p>
+            We welcome students and scholars across disciplines to collaborate on solutions that improve lives
+            in our region and beyond.
+          </p>
+          <div class="feature-cards">
+            <article class="card card--feature">
+              <h3>Multilingual Instruction</h3>
+              <p>Programs available in Kurdish, Arabic, and English.</p>
+            </article>
+            <article class="card card--feature">
+              <h3>Community Partnerships</h3>
+              <p>Field projects and internships with local organizations.</p>
+            </article>
+            <article class="card card--feature">
+              <h3>Inclusive Governance</h3>
+              <p>Committees ensure student and faculty participation.</p>
+            </article>
+          </div>
+        </div>
+        <aside class="aside">
+          <div class="notice">
+            <h3>Announcements</h3>
+            <ul class="list">
+              <li><a href="#news">Fall admissions deadlines updated.</a></li>
+              <li><a href="#news">New research seed grants available.</a></li>
+              <li><a href="#news">Language placement testing dates.</a></li>
+            </ul>
+          </div>
+          <div class="box box--accent">
+            <h3>Quick Links</h3>
+            <ul class="list">
+              <li><a href="#admissions">Undergraduate Admissions</a></li>
+              <li><a href="#admissions">Graduate Admissions</a></li>
+              <li><a href="#programs">Course Catalog</a></li>
+              <li><a href="#contact">Scholarships & Aid</a></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Programs -->
+    <section id="programs" class="section section--alt">
+      <div class="container">
+        <h2>Academic Programs</h2>
+        <p class="lead">Explore our faculties and departments.</p>
+        <div class="grid grid--3 cards">
+          <article class="card">
+            <h3>Medicine & Health</h3>
+            <p>Medical sciences, nursing, public health.</p>
+            <a class="card__link" href="#">View programs →</a>
+          </article>
+          <article class="card">
+            <h3>Engineering</h3>
+            <p>Computer, civil, agricultural, petroleum & chemical.</p>
+            <a class="card__link" href="#">View programs →</a>
+          </article>
+          <article class="card">
+            <h3>Science</h3>
+            <p>Physics, chemistry, mathematics, biology.</p>
+            <a class="card__link" href="#">View programs →</a>
+          </article>
+          <article class="card">
+            <h3>Humanities</h3>
+            <p>Languages, literature, history, philosophy.</p>
+            <a class="card__link" href="#">View programs →</a>
+          </article>
+          <article class="card">
+            <h3>Social Sciences</h3>
+            <p>Political science, law, economics, sociology.</p>
+            <a class="card__link" href="#">View programs →</a>
+          </article>
+          <article class="card">
+            <h3>Education & Arts</h3>
+            <p>Pedagogy, fine arts, cultural studies.</p>
+            <a class="card__link" href="#">View programs →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research" class="section">
+      <div class="container grid grid--2">
+        <div>
+          <h2>Research & Innovation</h2>
+          <p>
+            Our researchers collaborate across borders to address regional needs—
+            from sustainable agriculture to community health and multilingual education.
+          </p>
+          <ul class="checklist">
+            <li>Interdisciplinary centers and labs</li>
+            <li>Open access publications</li>
+            <li>Student-led research groups</li>
+          </ul>
+        </div>
+        <div class="tiles">
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Admissions -->
+    <section id="admissions" class="section section--accent">
+      <div class="container grid grid--2">
+        <div>
+          <h2>Admissions & Aid</h2>
+          <p class="lead">Join a vibrant, multicultural academic community.</p>
+          <ol class="steps" aria-label="Application steps">
+            <li>Create an applicant account</li>
+            <li>Upload transcripts and language proficiency</li>
+            <li>Submit application and financial aid form</li>
+          </ol>
+          <div class="cta-row">
+            <a class="btn btn--primary" href="#">Start Application</a>
+            <a class="btn btn--ghost" href="#">Check Requirements</a>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Key Dates</h3>
+          <ul class="list">
+            <li>Applications open: 1 May</li>
+            <li>Priority deadline: 1 July</li>
+            <li>Classes begin: 1 October</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="section">
+      <div class="container">
+        <h2>News & Events</h2>
+        <div class="grid grid--3 cards">
+          <article class="card card--news">
+            <time datetime="2025-08-01" class="card__eyebrow">Aug 1, 2025</time>
+            <h3>New partnerships announced</h3>
+            <p>Our university expands global collaboration with research institutions.</p>
+            <a class="card__link" href="#">Read more →</a>
+          </article>
+          <article class="card card--news">
+            <time datetime="2025-07-12" class="card__eyebrow">Jul 12, 2025</time>
+            <h3>Student research symposium</h3>
+            <p>Undergraduates showcase innovative projects across disciplines.</p>
+            <a class="card__link" href="#">Read more →</a>
+          </article>
+          <article class="card card--news">
+            <time datetime="2025-06-20" class="card__eyebrow">Jun 20, 2025</time>
+            <h3>Language learning initiative</h3>
+            <p>Expanded courses support multilingual education and access.</p>
+            <a class="card__link" href="#">Read more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--alt">
+      <div class="container grid grid--2">
+        <div>
+          <h2>Contact</h2>
+          <p>Have questions about admissions, partnerships, or programs? We’re here to help.</p>
+          <ul class="contact">
+            <li><strong>Email:</strong> info@example.ac</li>
+            <li><strong>Phone:</strong> +000 000 000</li>
+            <li><strong>Address:</strong> Main Campus, Qamishli, Al-Hasakah</li>
+          </ul>
+        </div>
+        <form class="form" action="#" method="post" aria-label="Contact form">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn btn--primary" type="submit">Send Message</button>
+          <p class="form__note">By submitting this form, you agree to our terms.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <strong>University of Rojava</strong>
+        <p>© <span id="year"></span> All rights reserved.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer__nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#admissions">Admissions</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#news">News</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const toggle = document.querySelector('.nav__toggle');
+    const nav = document.getElementById('site-nav');
+    toggle.addEventListener('click', () => {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true' || false;
+      toggle.setAttribute('aria-expanded', String(!expanded));
+      nav.classList.toggle('nav--open');
+    });
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
